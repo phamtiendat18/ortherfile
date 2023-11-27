@@ -198,12 +198,11 @@ $(document).ready(function () {
               $(".message").typed({
                 strings: [
                   "Merry Christmas",
-                  "Chúc cậu và người thân một mùa giáng sinh an lành nhó ",
-                  "Thân gửi cậu, Phương Thanh.",
+                  "Chúc cậu và người thân một mùa giáng sinh an lành nhó. Thân gửi cậu, Phương Thanh. ",
                 ],
-                typeSpeed: 250,
+                typeSpeed: 50,
                 startDelay: 500,
-                backSpeed: 50,
+                backSpeed: 10,
                 backDelay: 500,
                 loop: true,
                 contentType: "html",
